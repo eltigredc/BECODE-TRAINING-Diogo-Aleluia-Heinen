@@ -1,0 +1,63 @@
+.card{
+  height: 250px;
+  width: 450px;
+  border: solid grey 1px;
+  display: flex;
+  box-shadow: 4px 5px 5px -5px grey;
+  transition: all ease 1s;
+}
+
+.card:hover{
+  cursor: pointer;
+  box-shadow: 4px 5px 5px -2px black;
+}
+h1{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size:13px;
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.image{
+  background-image: url("https://picsum.photos/200/200");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:100%;
+  width:40%;
+}
+
+.content{
+  width:60%;
+  padding: 8px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.sub-infos{
+  display:flex;
+  justify-content: space-between;
+  font-size:13px;
+  color:grey;
+}
+
+.footer{
+  font-family: 'Open Sans', sans-serif;
+}
+.avatar{
+  height:35px;
+  width:35px;
+  border-radius: 50%;
+  background-image: url("https://picsum.photos/200/200");
+  background-size: cover;
+  background-position: center;
+  margin-right: 17px;
+}
+
+.card-footer{
+  display:flex;
+}
